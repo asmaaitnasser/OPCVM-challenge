@@ -8,6 +8,9 @@ datasets/
 results/
 outputs/
 
+# Allow parquet files in scraper directory
+!src/scraper/*.parquet
+
 # =========================
 # MODELS
 # =========================
