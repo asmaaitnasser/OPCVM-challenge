@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
 
         <button
-  onClick={() => window.location.href = "http://localhost:8501"}
+  onClick={() => window.location.href = "https://opcvm-streamlit.onrender.com"}
   className="bg-black text-white px-6 py-3 rounded-lg"
 >
   Accéder au Dashboard →
