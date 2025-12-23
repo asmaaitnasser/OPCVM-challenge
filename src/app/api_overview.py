@@ -467,3 +467,18 @@ def get_overview_metrics():
             "last_update": None,
             "status": f"error: {str(e)}",
         }
+
+
+# ======================================================
+# FastAPI Router
+# ======================================================
+from fastapi import APIRouter
+
+router = APIRouter()
+
+@router.get("/overview")
+def api_overview():
+    """
+    Endpoint API pour récupérer les métriques overview.
+    """
+    return get_overview_metrics()
