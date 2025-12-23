@@ -16,12 +16,12 @@ export default function Navbar() {
           <a href="#pipeline" className="hover:text-black">Notre Pipeline</a>
         </div>
 
-        <Link
-  to="/dashboard"
-  className="bg-black text-white px-4 py-2 rounded-lg"
+        <button
+  onClick={() => window.location.href = "http://localhost:8501"}
+  className="bg-black text-white px-6 py-3 rounded-lg"
 >
-  Accéder au Dashboard
-</Link>
+  Accéder au Dashboard →
+</button>
       </div>
     </nav>
   );
